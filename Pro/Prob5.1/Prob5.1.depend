@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1492925484 source:/home/diogo/Desktop/Prob5.1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

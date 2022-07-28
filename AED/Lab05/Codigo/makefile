@@ -1,0 +1,13 @@
+CFLAGS= -g -Wall -pedantic
+
+lab05: lab05.o tree.o
+	gcc $(CFLAGS) -o lab05 tree.o lab05.o
+
+lab05.o: lab05.c tree.h queue.h
+	gcc $(CFLAGS) -c lab05.c
+
+tree.o: tree.c tree.h queue.h
+	gcc $(CFLAGS) -c tree.c
+
+clean:
+	rm -f *.o *.~ lab05 *.gch

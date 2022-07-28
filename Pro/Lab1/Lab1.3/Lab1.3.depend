@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1488660015 source:/home/diogo/Desktop/Lab1.3/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
